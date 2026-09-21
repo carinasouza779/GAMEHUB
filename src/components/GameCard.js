@@ -34,3 +34,17 @@ export default function GameCard({ jogo }) {
 const styles = StyleSheet.create({
     
 })
+ const style = StyleSheet.create({
+    card:{
+        backgroundColor: cores.fundoCard,
+        borderRadius: 12,
+        overFlow: "hidden",
+        width: 158,
+        marginRight: 12,
+        borderWidth: 1,
+        borderColor: cores.borda,
+    },
+    imagem:{
+        
+    }
+ })
